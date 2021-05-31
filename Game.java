@@ -220,7 +220,6 @@ public class Game implements MouseListener {
 
     @Override
     public void mousePressed(MouseEvent e) {
-        System.out.println("here");
         if (SwingUtilities.isRightMouseButton(e)) {
             flag = true;
         } else {
